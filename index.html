@@ -1,16 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8" />
-  <title>Page Title</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="" />
-  <style></style>
-  <script src=""></script>
-  <!--- Code above this line will not be displayed on the browser -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megan's Music Page</title>
+    <link rel="stylesheet" href="style.css" media="screen" />
+  </head>
   <body>
-    <p>
-      Hello world!<br />
-      My name is Megan Lambrecht-Scasny.
-    </p>
+    <!--Header-->
+    <header>
+      <!-- logo created by me in Figma -->
+      <img src="images/logo.png" alt="Megan's Music Page Logo" width="180px" />
+      <h1>
+        <nav>
+          <div class="pageindicator">
+            <a href="index.html">Home</a>
+          </div>
+          <a href="reviews/reviews.html">Reviews</a>
+          <a href="concerts/concerts.html">Concerts</a>
+          <a href="playlists/playlists.html">Playlists</a>
+          <a href="favorites/favorites.html">Favorites</a>
+        </nav>
+      </h1>
+    </header>
+
+    <!--About me section-->
+    <div id="aboutme">
+      <div id="meimg">
+        <img
+          class="meimg"
+          src="images/meimg.jpg"
+          alt="Picture of me"
+          width="80%"
+        />
+      </div>
+      <div id="metxt">
+        <h1>About Me</h1>
+        <p>
+          I'm Megan, a college student with a passion for music. Whether I am
+          singing, playing piano or bass, going to concerts, or just listening
+          to and discovering as much new music as I possibly can--I am always
+          connecting with music.
+        </p>
+        <p>
+          This page was made to showcase some of my music opinions, experiences,
+          and more with the hope of helping others find new music to enjoy.
+        </p>
+      </div>
+    </div>
+
+    <!--Page descriptions table-->
+    <div id="pagedesc">
+      <table>
+        <tr>
+          <td>
+            <h3>Reviews</h3>
+            <p>
+              This page includes miscellaneous reviews I wrote for songs I have
+              been listening to recently.
+            </p>
+          </td>
+          <td>
+            <h3>Concerts</h3>
+            <p>
+              This page includes short blog posts and photos from recent
+              concerts I've attended and enjoyed.
+            </p>
+          </td>
+          <td>
+            <h3>Playlists</h3>
+            <p>
+              This page includes links to some of my favorite playlists I have
+              made that fit certain moods.
+            </p>
+          </td>
+          <td>
+            <h3>Favorites</h3>
+            <p>
+              This page includes lists of some of my current favorite songs,
+              albums, and artists.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
